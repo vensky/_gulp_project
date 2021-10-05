@@ -29,6 +29,11 @@ Network Trash Folder
 Temporary Items
 .apdisk
 
+# Editor ignore files
+.idea
+*.sublime*
+.vscode
+
 # Frontend ignore files
 npm-debug.log
 yarn-error.log
@@ -38,7 +43,9 @@ node_modules
 .tmp
 *.map
 bower_components
+*.log*
 
 # Project ignore files
 build
 dist
+src/assets
